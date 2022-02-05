@@ -1,0 +1,220 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: none;
+    box-sizing: border-box;
+    background: transparent;
+    font-family: inherit;
+  }
+  a{
+    text-decoration: none;
+  }
+  a img {
+    border: none;
+  }
+  
+  button,
+  a {
+    cursor: pointer;
+    color: inherit;
+  }
+  
+  textarea {
+    resize: none;
+  }
+  
+  button,
+  textarea,
+  select {
+    appearance: none !important;
+    border-radius: 0;
+  }
+
+  /* css reset is over */
+
+  body {
+      background-color: white;
+      font-family: 'Poppins', sans-serif;
+  }
+
+  section {
+      min-height: 100vh;
+      width: 100%;
+  }
+
+  /* -----section 1 ------*/
+
+  #Welcome {
+      height: 100vh;
+      width: 100%;
+      overflow: hidden;
+  }
+
+  #Welcome img {
+    position: absolute;
+    display: block;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    z-index: -1;
+  }
+
+  #Welcome h1, h2 {
+    position: absolute;
+    top: 40%;
+    left: 16%;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;    
+  }
+
+  #Welcome h2 {
+    font-size: 15px;
+    top: 55%;        
+  }
+
+  #Welcome button {
+      position: absolute;
+      top: 65%;
+      left: 16%;
+      font-family: 'Poppins', sans-serif;
+      color: white;
+      height: 40px;
+      width: 165px;
+      background-color: rgb(255, 153, 0, 0.8);
+      text-shadow: 2px 2px 4px #000000;
+      
+  }
+
+  /* -----section 2 ------*/
+
+   #About {
+      height: 100vh;
+      width: 100%;
+  }
+
+  .container-1 {
+      display: flex;
+      align-items: center;
+      max-width: 800px;
+      margin: 0 auto;
+  }
+
+  #About img {
+    height: 500px;
+}
+
+  .box1 {
+    flex: 1;
+}
+
+  .box2 {
+    flex: 1;
+}
+
+  #About div article {
+    background-color: #eaf1f8;
+ }
+
+  #About div article h1 {
+    color: black;
+    padding: 20px 200px;
+    font-size: 20px;
+}
+
+  #About div article p {
+      padding: 10px 20px;
+      font-size: 12px;
+      font-weight: 400;
+  }
+
+  .container-2 {
+      display: flex;
+      padding: 10px 40px;
+  }
+
+  .container-2 h1 {
+      color: rgb(255, 153, 0);
+      font-weight: 400;
+  }
+
+  .container-3 {
+     display: flex;
+     width: 100%;
+     max-width: 900px;
+     margin: 0 auto;
+ }
+
+/* -----section 3 ------*/
+
+  #Our-projects img {
+     max-height: 300px;
+     max-width: 200px;
+ }
+ 
+  .testinline {
+      display: flex;
+      max-width: 500px;
+      background-color: blue;
+      text-align: center;
+  }
+
+  .test1 {
+    padding: 0 50px;
+  }
+      
+.button-container {
+    display: flex;
+    max-width: 500px;
+  }
+
+.button-house {
+    height: 50px;
+    width: 150px;
+    background-color: rgb(255, 153, 0);
+     
+}
+
+.button-catalog {
+  height: 50px;
+  width: 150px;
+  background-color: white;
+  border-style: solid;
+  border-color: rgb(255, 153, 0);
+  border-width: 2px;
+  }
+
+  /* -----section 4 ------*/
+
+#Reviews {
+  position: relative;
+  background-color: pink;
+}
+
+#Reviews div {
+  width: 400px;
+  max-width: 400px;
+  height: 400px;
+  background-color: grey;
+  text-align: center;
+
+}
+
+.fantastic {
+  position: absolute;
+  top: 20%;
+  left: 20%;
+  border: black 2px solid;
+}
+
+.excellent {
+  position: absolute;
+  top: 20%;
+  left: 60%;
+  border: black 2px solid;
+}
